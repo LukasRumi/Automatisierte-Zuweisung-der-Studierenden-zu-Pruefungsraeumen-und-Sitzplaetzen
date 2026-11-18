@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pruefungsraumzuweisung"
+version = "0.1.0"
+description = "Automatisierte Zuweisung von Studierenden zu Prüfungsräumen und Sitzplätzen"
+requires-python = ">=3.11"
+authors = [{ name = "Lukas Ruminski" }]
+
+[project.scripts]
+pruefung = "pruefung.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

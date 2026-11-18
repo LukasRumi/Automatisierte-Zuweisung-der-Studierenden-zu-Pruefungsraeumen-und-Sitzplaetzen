@@ -1,0 +1,12 @@
+# Ausgaben eines Laufs. Sie enthalten Namen und volle Matrikelnummern.
+out/
+
+# Python Hilfsdateien
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+build/
+dist/

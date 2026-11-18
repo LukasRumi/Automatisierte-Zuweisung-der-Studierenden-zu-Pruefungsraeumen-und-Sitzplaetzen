@@ -1,0 +1,5 @@
+_  kein Sitz
+   Gang
+.  Sitz der leer bleibt
+X  möglicher Sitz für Prüfung
+<  Leerraum mit halber Sitzbreite
